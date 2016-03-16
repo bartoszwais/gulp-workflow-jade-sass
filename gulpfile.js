@@ -16,6 +16,7 @@ var plumber = require('gulp-plumber'); // Added
 var beeper = require('beeper'); // Added
 var del = require('del'); // Added
 var sourcemaps = require('gulp-sourcemaps') // Added
+var autoprefixer = require('gulp-autoprefixer');
 
  // Error Helper
 function onError(err) {
@@ -35,6 +36,7 @@ gulp.task('styles', function() {
            }))
            .pipe(concat('all.css'))
            .pipe(sass())
+           .pipe(autoprefixer())
            .pipe(gulp.dest('dist'));
 });
 // Scripts Task

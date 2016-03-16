@@ -15,6 +15,7 @@
     "connect": "^3.4.1",
     "del": "^2.2.0",
     "gulp": "gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.0",
     "gulp-cli": "gulpjs/gulp-cli#4.0",
     "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^2.4.0",
