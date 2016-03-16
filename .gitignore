@@ -1,4 +1,4 @@
 *.swp
 *.un~
 .DS_Store
-noden_modules/
+node_modules/
